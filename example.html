@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>CLMaterial</title>
+    <link rel="stylesheet" type="text/css" href="./src/css/clmaterial.css">
+</head>
+    <body>
+        <h1>Welcome to CLMaterial!</h1>
+        <h1>Forms</h1>
+        <form method="POST" action="#">
+
+            <!-- Input -->
+            <div>
+                <label>Title</label>
+                <input type="text" placeholder="Enter a title...">
+            </div>
+
+            <!-- Input -->
+            <div>
+                <label>Title</label>
+                <input type="password" placeholder="Enter password...">
+            </div>
+
+            <!-- Description -->
+            <div>
+                <label>Description</label>
+                <input type="text" placeholder="Enter a description...">
+            </div>
+
+            <!-- Select -->
+            <div>
+                <label>category</label>
+                <select required name="category" >
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                    <option value="4">Option 4</option>
+                </select>
+            </div>
+
+            <!-- Textarea -->
+            <div>
+                <label>Content</label>
+                <br>
+                <textarea name="content" rows="15" placeholder="Enter the content here..."></textarea>
+                <i>Plain text</i>
+            </div>
+            <br>
+
+            <!-- Checkboxes -->
+            <div>
+                <label>Checkboxes</label>
+                <input type="checkbox" checked> <label>Checkbox</label>
+                <br>
+                <input type="checkbox"> <label>Checkbox</label>
+                <br>
+                <input type="checkbox" disabled> <label>Checkbox disabled and not checked</label>
+                <br>
+                <input type="checkbox" disabled checked> <label>Checkbox disabled and checked</label>
+            </div>
+            <br>
+
+            <!-- Radio buttons -->
+            <div>
+                <label>Radio buttons</label>
+                <input type="radio" name="radio" checked> <label>Radio 1</label>
+                <br>
+                <input type="radio" name="radio"> <label>Radio 2</label>
+                <br>
+                <input type="radio" name="radio"> <label>Radio 3</label>
+            </div>
+        </div>
+        <br><br>
+        <div>
+            <!-- Submit buttons -->
+            <button type="submit">Button</button>
+            <button type="submit" disabled>Button Disabled</button>
+        </div>
+    </form>
+
+
+
+    <br><br>
+
+    <!-- Tables -->
+    <h1>Category list</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Uncategorized</td>
+                <td>
+                    <a href="#">View</a>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sports</td>
+                <td>
+                    <a href="#">View</a>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>General</td>
+                <td>
+                    <a href="#">View</a>
+                    <a href="#">Edit</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <h1>Cards</h1>
+
+    <!-- card element -->
+    <card>
+        <p>
+            Simple card with a <a href="https://aitorriba.com">link</a> and a <button>button</button>
+        </p>
+    </card>
+
+    <!-- card element without margins -->
+    <card no-margins>
+        <p>Simple card without margins</p>
+    </card>
+
+
+    <card>
+        <h5>Card title</h5>
+        <hr>
+        <p>Your content here</p>
+    </card>
+
+    <!-- image at the top -->
+    <card>
+        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Image&w=1100&h=300" alt="sign">
+
+        <h5>Title</h5>
+
+        <p>Content goes here</p>
+    </card>
+
+    <!-- image in the middle -->
+    <card>
+        <h5>Title</h5>
+
+        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Image&w=1100&h=300" alt="sign">
+
+        <p>Content goes here</p>
+    </card>
+
+    <!-- image at the bottom -->
+    <card>
+        <h5>Title</h5>
+
+        <p>Content goes here</p>
+
+        <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Image&w=1100&h=300" alt="sign">
+    </card>
+
+    <br><br>
+    <h1>Headings</h1>
+
+    <br>
+    <!-- Headings -->
+    <h1>Heading H1</h1>
+    <h2>Heading H2</h2>
+    <h3>Heading H3</h3>
+    <h4>Heading H4</h4>
+    <h5>Heading H5</h5>
+    <h6>Heading H6</h6>
+
+    <br><br>
+
+    <h1>Other components</h1>
+
+    <h2>Blockquotes</h2>
+    <br><br>
+    <blockquote cite="http://aitorriba.com">
+        Example of blockquote.
+    </blockquote>
+    <br>
+    <blockquote cite="http://aitorriba.com">
+        This little framework is built by Aitor Riba inspired on <a src="http://barecss.com">barecss</a>
+    </blockquote>
+
+    <br><br>
+    <h2>Code</h2>
+    <br><br>
+    <pre>
+        foreach ($users as $user) {
+            echo($user->name)
+        }
+    </pre>
+    <br>
+    <pre>
+        // This is an example of code with a long line which causes overflows on the page. Then with overflow-x: auto, it's possible to display a scroll bat on bottom.
+    </pre>
+
+    <br><br>
+    <h2>Images</h2>
+    <br>
+    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Image&w=350&h=250" alt="">
+    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Image&w=350&h=250" alt="">
+    <img src="https://placeholdit.imgix.net/~text?txtsize=33&txt=Image&w=350&h=250" alt="">
+    <br><br>
+    <br><br>
+
+
+    </body>
+</html>
