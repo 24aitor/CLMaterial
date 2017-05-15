@@ -7,7 +7,7 @@
 
 You can preview CLMaterial here:
 
-[HMTL Preview](http://htmlpreview.github.io/?https://github.com/24aitor/CLMaterial/blob/master/example.html)
+[HMTL Preview](https://htmlpreview.github.io/?https://github.com/24aitor/CLMaterial/blob/master/example.html)
 
 ## Forms
 
