@@ -5,9 +5,11 @@
     <a href="https://raw.githubusercontent.com/24aitor/CLMaterial/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg"></a>
 </p>
 
+This framework is based on [barecss](http://barecss.com/), another classless framework.
+
 You can preview CLMaterial here:
 
-[HMTL Preview](http://htmlpreview.github.io/?https://github.com/24aitor/CLMaterial/blob/master/example.html)
+[HMTL Preview](https://htmlpreview.github.io/?https://github.com/24aitor/CLMaterial/blob/master/example.html)
 
 ## Forms
 
