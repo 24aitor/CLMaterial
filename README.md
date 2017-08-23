@@ -1,3 +1,5 @@
+<p align="center"><img height="250" src="http://i.imgur.com/iSv4fuf.png"></p>
+
 <h1 align="center">CLMaterial</h1>
 <h3 align="center">The Classless Material CSS Framework</h3>
 
